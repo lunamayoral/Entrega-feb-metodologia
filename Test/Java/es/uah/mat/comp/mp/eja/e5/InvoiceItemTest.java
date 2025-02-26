@@ -54,7 +54,7 @@ class InvoiceItemTest {
     @Test
     void testToString() {
         InvoiceItem iist = new InvoiceItem("1","15%",40,25.0);
-        assertEquals("InvoiceItem[ id = 1 desc = 15% qty = 40 unitPrice = 25.0 ]",iist.toString());
+        assertEquals("InvoiceItem[ id = 1 ,desc = 15% ,qty = 40 ,unitPrice = 25.0 ]",iist.toString());
 
 
     }
